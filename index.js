@@ -1,7 +1,9 @@
 import Link from 'next/link'
+import Header from '../components/Header';
 
 const Index = () => (
   <div>
+    <Header />
     <h1>
       안녕, Next.js
     </h1>
