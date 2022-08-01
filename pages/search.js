@@ -6,9 +6,9 @@ const Search = (props) => {
   const { query } = useRouter();
 
   return (
-
-    <p>{query.keyword}</p>
-
+    <Layout>
+      <p>Your search keyword is: {query.keyword}</p>
+    </Layout>
   );
 };
 
@@ -17,6 +17,8 @@ export default Search;
 
 /*
 Cesar's hack
+http://localhost:3000/search?keyword=cesar
+
 
 export default function Items(props) {
   const { query } = useRouter();
