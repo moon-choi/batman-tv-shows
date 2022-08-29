@@ -3,11 +3,26 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^2.1.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
-  }
+    "next": "^2.4.9",
+    "react": "^15.7.0",
+    "react-dom": "^15.7.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moon-choi/hello-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/moon-choi/hello-next/issues"
+  },
+  "homepage": "https://github.com/moon-choi/hello-next#readme"
 }
