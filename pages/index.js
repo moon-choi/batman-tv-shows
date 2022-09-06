@@ -56,14 +56,16 @@ const Index = props => (
     <h1>Batman TV Shows</h1>
     <ul>
       {props.shows.map(show => (
-        <li key={show.id}>
+        <li key={show.id} >
           <Link href="/p/[id]" as={`/p/${show.id}`}>
             <a>{show.name}</a>
           </Link>
         </li>
-      ))}
+      ))
+      }
+
     </ul>
-  </Layout>
+  </Layout >
 )
 
 Index.getInitialProps = async function () {
@@ -72,10 +74,9 @@ Index.getInitialProps = async function () {
 
   console.log(`Show data fetched. Count: ${data.length}`)
   // 여기서 확인해야 할 것은 데이터를 서버에서 가지고 오는지 클라이언트에서 가지고 오는지 입니다.새로 고침을 했을 때 getInitialProps 안에 있는 console.log의 내용이 어디에 찍히는지 보면 확인을 할 수 있습니다.새로 고침을 할 경우 서버의 콘솔에서만 메세지가 출력되는 것을 볼 수 있습니다. 
-  
+
   return {
     shows: data.map(entry => entry.show)
   }
 }
-
 export default Index
