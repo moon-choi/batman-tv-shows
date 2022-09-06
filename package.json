@@ -8,13 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^2.4.9",
-    "react": "^15.7.0",
-    "react-dom": "^15.7.0"
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moon-choi/hello-next.git"
