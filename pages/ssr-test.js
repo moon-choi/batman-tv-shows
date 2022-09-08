@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '../components/MyLayout';
 import React from 'react';
 
 class SSRTest extends React.Component {

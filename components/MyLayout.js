@@ -8,14 +8,14 @@ const layoutStyle = {
 }
 
 //method 0. 
-const MyLayout = props => (
+const Layout = props => (
   <div style={layoutStyle}>
     <Header />
     {props.children} {/* <p>this is index.js page</p> */}
   </div>
 )
 
-export default MyLayout
+export default Layout
 
 /*
 // method 1.

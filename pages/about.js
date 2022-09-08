@@ -5,7 +5,7 @@ export default function About() {
   return (
   <Layout>
       <p>About page</p>
-    </Layout>
+  </Layout>
   )
 }
 
@@ -14,7 +14,7 @@ export default function About() {
 
 // method 1
 
-import withLayout from '../components/Layout'
+import withLayout from '../components/MyLayout'
 
 const Page = () => <p>This is the about page</p>
 

@@ -4,7 +4,7 @@ import fetch from 'isomorphic-unfetch'
 
 
 /* method 1
-import withLayout from '../components/Layout'
+import withLayout from '../components/MyLayout'
 const Page = () => <p>Hello Next.js</p>
 export default withLayout(Page)
 */
@@ -52,7 +52,7 @@ const PostLink = props => (
 
 
 const Index = props => (
-  <MyLayout>
+  <Layout>
     <h1>Batman TV Shows</h1>
     <ul>
       {props.shows.map(show => (
@@ -65,7 +65,7 @@ const Index = props => (
       }
 
     </ul>
-  </MyLayout >
+  </Layout >
 )
 
 Index.getInitialProps = async function () {

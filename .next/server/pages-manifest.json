@@ -1,6 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/p/[id]-new": "pages/p/[id]-new.html",
+  "/p/[id]": "pages/p/[id].js",
+  "/post": "pages/post.html",
+  "/search": "pages/search.html",
+  "/ssr-test": "pages/ssr-test.js",
+  "/index-old": "pages/index-old.js",
+  "/about": "pages/about.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
