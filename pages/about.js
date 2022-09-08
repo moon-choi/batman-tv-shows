@@ -1,9 +1,9 @@
-import Layout from '../components/Layout'
+import Layout from '../components/MyLayout'
 
 // method 0
 export default function About() {
   return (
-    <Layout>
+  <Layout>
       <p>About page</p>
     </Layout>
   )
