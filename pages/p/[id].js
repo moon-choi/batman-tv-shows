@@ -1,6 +1,8 @@
 import Layout from '../../components/MyLayout'
 import fetch from 'isomorphic-unfetch'
-const Post = (show) => ( // Post component received the objet.
+const Post = ({show})  => ( //destructuring or (props) => works too. 
+  // Post component received the object.
+  //props is the return {show} from below.
   <Layout>
     <h1>{show.name}</h1>
     <p>{show.summary.replace(/<[/]?p>/g, '')}</p>
