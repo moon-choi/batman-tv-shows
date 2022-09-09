@@ -11,7 +11,7 @@ const layoutStyle = {
 const Layout = props => (
   <div style={layoutStyle}>
     <Header />
-    {props.children} {/* <p>this is index.js page</p> */}
+    {props.children}
   </div>
 )
 
